@@ -1,0 +1,342 @@
+.first-header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-left: 70px;
+    display: flex;
+}
+.ubi{
+    width: 450px;
+    height: 60px;
+    display: flex;
+}
+.ubi-png{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+body{
+    margin: 0;
+    font-family: ubisoft_sansbold, sans-serif;
+    overflow-x: hidden;
+}
+.ub-text{
+    color: rgb(226, 224, 224);
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+}
+.fh-text{
+    color: rgb(226, 224, 224);
+    text-align: center;
+    width: 120px;
+    padding-top: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    align-content: center;
+}
+.fh-text:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.second-header{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to right, rgb(3, 54, 58), #04c4d2, rgb(3, 54, 58), rgb(3, 54, 58));
+    display: flex;
+    padding-left: 50px;
+    float: left;
+    position: absolute;
+    
+}
+.logo-2h{
+    height: 56px;
+    width: 44px;
+    margin-top: 8px;
+}
+.text-logo{
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 11px;
+}
+.text-2h{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    width: 180px;
+    color: white;
+    float: left;
+}
+.text-2h:hover{
+    background-color: #04c4d2;
+    cursor: pointer;
+}
+.h2-drop{
+    width: 150px;
+    height: 70px;
+    float: left;
+}
+.drop-2h{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    outline: 0ch;
+    width: 150px;
+    height: 70px;
+    color: white;
+    background-color: transparent;
+   -webkit-appearance: none;
+    border: 0ch;
+    cursor: pointer;
+}
+.drop-2h:hover{
+    background-color: #04c4d2;
+}
+.h2-logo{
+    width: 236px;
+    height: 70px;
+    display: flex;
+}
+.buy-now{
+    font-size: 24px;
+    text-align: center;
+    margin-left: 250px;
+    padding-top: 23px;
+    width: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #04c4d2;
+    float: right;
+}
+.buy-now:hover{
+    background-color:   #04c4d2 ;
+    color: white;
+    cursor: pointer;
+}
+.page1{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(2, 25, 44);
+    background-image: url(pic1.webp);
+    float: left;
+}
+
+.video{
+    width: 470px;
+    height: 270px;
+    border: 1px wheat;
+    margin-left: 65%;
+    margin-top: 15px;
+}
+.text-ass{
+    float: right;
+    width: 360px;
+    margin-top: 115px;
+    height: 130px;
+    margin-right: 117px;
+    filter: drop-shadow(3px 5px rgb(54, 53, 53));
+}
+.utube{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    right: 254px;
+     top: 415px;
+
+}
+.vid-text{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 921px;
+    margin-top: 30px;
+}
+.button-play{
+    width: 150px;
+    height: 50px;
+   text-align: center;
+   font-size: 15px;
+   font-weight: bold;
+   float: right;
+   background-color: #04c4d2;
+   color: white;
+   border-color: white;
+   margin-right: 211px;
+   border: 3px solid ;
+   border-radius: 5px;
+   margin-top: 15px;
+    cursor: pointer;
+}
+.button-play:hover{
+    background-color: #036067;
+    border-color: #036067;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay: 0.3s;
+    transition-property: border;
+    font-family: din-probold,sans-serif;
+}
+.mainbody{
+    width: 100%;
+    height: 2004px;
+    background-color:  rgb(2, 25, 44);
+    float: left;
+    padding: 40px;
+}
+.news-h{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50px;
+    color: white;
+    font-weight: lighter;
+    margin-left: 552px;
+}
+.second{
+    border: 1px solid;
+    border-color: white;
+    float: left;
+    width: 380px;
+    height: 600px;
+    margin-left: 70px;
+}
+.second-img{
+    height: 220px;
+    width: 380px;
+}
+.s-date{
+    color: white;
+    margin-left: 23px;
+    letter-spacing: 1.5px;
+}
+.s-head{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.s-text{
+    color: white;
+    font-size: 15px;
+    line-height: 156%;
+    margin-left: 25px;
+}
+.s-more{
+    color: #04c4d2;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 25px;
+    letter-spacing: 1px;
+}
+.s-more:hover{
+    color: white;
+    cursor: pointer;
+}
+.arrao{
+    float: left;
+    width: 17px;
+    height: 28px;
+    margin-left: 43%;
+    margin-top: 37px;
+}
+.arrao-2{
+    float: left;
+    width: 17px;
+    height: 28px;
+    margin-left: 6%;
+    margin-top: 37px;
+    transform: rotate(180deg);
+}
+.third{
+    float: left;
+    width: 90%;
+    background-image: url(Eivor_website-comp-3.webp);
+    background-size: cover;
+    margin-left: 32px;
+    height: 600px;
+    margin-top: 62px;
+    position: relative;
+}
+.main-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 56px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 500px;
+    letter-spacing: 2px;
+    margin-left: 264px;
+    line-height: 69px;
+}
+.para{
+    margin-top: 73px;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.025px;
+    margin-left: 299px;
+    float: left;
+}
+.hr{
+    width: 100%;
+    height: 0.5px;
+    color: white;
+    float: left;
+    margin-top: 0px;
+    margin-left: -40px;
+}
+.footer{
+    float: left;
+    width: 100%;
+    height: 175px;
+    background-color: inherit;
+    margin-left: -40px;
+    float: left;
+    margin-top: 40px;
+}
+.footer-png{
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+}
+.icon{
+    margin-left: 34%;
+    margin-top: 30px;
+    width: 66%;
+    height: 40px;
+    float: left;
+
+}
+.after-c{
+    color: rgb(200, 197, 197);
+    float: left;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: -25px;
+    margin-left: 136px;
+}
+.last-line{
+    margin-left: 15%;
+    width: 80%;
+    height: 40px;
+    float: left;
+    margin-top: -20px;
+}
+.last-text{
+    color: rgb(200, 197, 197);
+    padding-left: 50px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.last-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.last-img{
+    float: left;
+    margin-left: 20%;
+
+}
